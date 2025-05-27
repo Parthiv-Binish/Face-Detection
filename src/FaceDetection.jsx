@@ -8,7 +8,7 @@ function FaceDetection() {
     const response = await axios.get("http://localhost:8000/detect-faces/");
     setFaces(response.data.faces_detected);
   };
-
+//text
   return (
     <div>
       <h2>Face Detection</h2>
